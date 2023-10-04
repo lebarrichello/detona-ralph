@@ -7,23 +7,23 @@
 
 .container {
     display: flex;
-    background-color: #000000;
     flex-direction: column;
     height: 100vh;
+    background-image: url("../assets/wall.png");
 }
 
 .menu {
     display: flex;
+    background-color: #000000;
     justify-content: space-evenly;
     align-items: center;
     height: 90px;
     width: 100%;
-    background-color: #ffffff;
     color: #ff0000;
+    border-bottom: 5px solid #ffd700;
 }
 
 .panel{
-    border: 1px solid #ff0000;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -38,5 +38,12 @@
 }
 
 .enemy {
-    background-color: #ff0000;
+    background-image: url("../assets/ralph.png");
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
