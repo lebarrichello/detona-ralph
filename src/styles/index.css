@@ -7,7 +7,9 @@
 
 .container {
     display: flex;
-    background-color: black;
+    background-color: #000000;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .menu {
@@ -16,6 +18,25 @@
     align-items: center;
     height: 90px;
     width: 100%;
-    background-color: white;
-    color: red;
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+.panel{
+    border: 1px solid #ff0000;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    height: 150px;
+    width:150px;
+    background-color: #00ffff;
+    border: 1px solid #000000;
+}
+
+.enemy {
+    background-color: #ff0000;
 }
